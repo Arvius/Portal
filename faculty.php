@@ -1,7 +1,3 @@
-<?php
-    session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Home</title>
+    <title>Schedule</title>
 </head>
 <body>
     <div class="main-container">
@@ -35,20 +31,8 @@
                 <a href="php/logout.php"> <button class="btn"> Logout </button></a> 
             </div>
         </div>
-
-        <div class="main-content">
-            <div class="main-box top">
-                <div class="top">
-                    <div class="box">
-                        <p>Hello, Welcome to Student Portal<br> </p>
-                        <b><?php echo  $_SESSION["username"] ?></b>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
+   </div>
     </div>
-
     <script>
         function button_open(){
             document.getElementById("sidebar").style.display = "block";
@@ -57,5 +41,6 @@
             document.getElementById("sidebar").style.display = "none";
         }
     </script>
+    
 </body>
 </html>
