@@ -8,15 +8,19 @@
 }
 
 body{
-    background: #e4e9f7;
-
+    height: 100vh;
+    background-image: url("ChatGPT\ Image\ Sep\ 2\,\ 2025\,\ 08_40_39\ PM.png");
+    background-size: cover;
+    background-position: center;    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
-
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 90vh;
+
 }
 
 .box{
@@ -82,54 +86,15 @@ body{
     margin-bottom: 15px;
 
 }
-
-/******** HOME ************/
-.nav{
-    background: #e6e6e6;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    line-height: 60px;
-    z-index: 100;
+.message{
+    text-align: center;
+    background-color: #f9eded;
+    padding: 15px 0px;
+    border: 1px solid #699053;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: red;
 }
-.logo{
-    font-size: 25px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #000;
-
+.field select{
+    padding: 10px;
 }
-.right-links a{
-    padding: 0px 10px;
-}
-
-.main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-.main-box{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-}
-.main-box .top{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-@media only screen and (max-width: 840px){
-    .main-box .top{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-}
-.top .box{
-    margin: 10px 10px;
-}
-}
-
-
-    
